@@ -26,7 +26,7 @@ public class Palindrome {
         Tenet
         Wow
      */
-    System.out.println(isStringPalindrome("Nolemon,nomelon"));
+    System.out.println(isStringPalindrome("malayalam"));
   }
   
   public static boolean isStringPalindrome(String str){
@@ -35,12 +35,10 @@ public class Palindrome {
     if(charArr.length <= 1) return true;
     int leftIndex = 0;
     int rightIndex = charArr.length -1 ;
-    boolean isPalindrome = false;
+    boolean isPalindrome = true;
     while ( leftIndex < rightIndex ){
-      if(charArr[leftIndex++] == charArr[rightIndex--]){
-        isPalindrome = true;
-      }else{
-        isPalindrome = false;
+      if(charArr[leftIndex++] != charArr[rightIndex--]){
+        return false;
       }
     }
     return isPalindrome;
