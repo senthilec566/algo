@@ -2,16 +2,6 @@ package com.learning.algo.random;
 
 public class LongestBinaryGap {
   
-  public int solution(int N) {
-    // write your code in Java SE 8
-    return N;
-  }
-  
-  public static void convertToBinary(int n){
-    System.out.println(Integer.toBinaryString(n));
-    
-  }
-  
   public static int longestGap(int n){
     final String binaryStr = Integer.toBinaryString(n);
     int longestGap = 0;
