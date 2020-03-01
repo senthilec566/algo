@@ -1,4 +1,4 @@
-package com.learning.algo.vonage;
+package com.learning.algo.vnage;
 
 public class WidestPath {
 

@@ -1,10 +1,12 @@
-package com.learning.algo.vonage;
+package com.learning.algo.vnage;
 
 public class NonNegativeSiblings {
 
   public static void main(String[] args) {
-    int N = 557;
+    int N = 38293367;
+    System.out.println(solution(N));
   }
+  
   public static int solution(int N) {
     // write your code in Java SE 8
     final char[] charArr = String.valueOf(N).toCharArray();

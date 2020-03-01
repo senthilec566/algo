@@ -7,6 +7,6 @@ public class NthFactorial {
         return (n * getNthFib(n-1));
   }
   public static void main(String[] args) {
-    System.out.println(getNthFib(2));
+    System.out.println(getNthFib(3));
   }
 }
