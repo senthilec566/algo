@@ -31,7 +31,7 @@ class CoinFliping {
  }
  
  public static void main(String[] args) {
-   int[] in = {0,1,0,1,0};
+   int[] in = {0,0,1};
   System.out.println(solution(in));
 }
  
